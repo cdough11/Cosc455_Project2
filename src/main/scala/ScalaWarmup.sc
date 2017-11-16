@@ -48,7 +48,7 @@ def goldbach(n : Int) : Unit ={
 
 def goldbachAnalysis(x: Int, y: Int) : Unit ={
   if ((x + y - x == y) && prime(x) && prime(y - x))
-    println("Goldbach sequence for " + y + " is " + x + " + " + (y-x))
+    println("Goldbach sequence: " + x + " + "  + (y - x) + " = " + y)
   else if(x < y)
     goldbachAnalysis(x + 1, y)
 }
