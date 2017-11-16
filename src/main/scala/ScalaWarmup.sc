@@ -33,7 +33,7 @@ def twinprimelist(n : Int) : List[Int] ={
     else twinprimelist(n-1)
   }
 }
-twinprimelist(50)
+twinprimelist(50).reverse
 
 //////////////////////////////////////////////////////////
 //Question4
